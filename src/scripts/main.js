@@ -82,7 +82,7 @@ tbody.addEventListener('click', (e) => {
     return;
   }
 
-  const currentActiveRow = tbody.querySelector('tbody .active');
+  const currentActiveRow = tbody.querySelector('.active');
 
   if (currentActiveRow && currentActiveRow !== clickedRow) {
     currentActiveRow.classList.remove('active');
